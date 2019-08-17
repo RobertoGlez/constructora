@@ -1,0 +1,15 @@
+.navbar-brand {
+    color: #B1982B !important;
+    font-weight: bold;
+}
+
+.text-white {
+    color: white !important;
+}
+
+@media (max-width: 499px) {
+    .our_partners_area .partners .item img {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+}
