@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioComponent implements OnInit {
 
+  public imagenActual: string = null;
+
   constructor() { }
 
   ngOnInit() {
