@@ -1,55 +1,67 @@
 .modal-dialog {
-    padding-top: 17%;
+  padding-top: 11rem;
 }
 
 .img-album {
-    width: 100%;
-    margin: auto;
-    display: block;
+  width: 100%;
+  margin: auto;
+  display: block;
 }
 
 .navbar-brand {
-    color: #B1982B !important;
-    font-weight: bold;
+  color: #B1982B !important;
+  font-weight: bold;
+}
+
+
+.navbar-brand {
+  padding-top: 2rem !important;
 }
 
 .featured_works .featured_gallery .gallery_iner img {
-    height: 25rem;
+  height: 25rem;
 }
 
 .text-white {
-    color: white !important;
+  color: white !important;
 }
 
 @media (max-width: 499px) {
-    .our_partners_area .partners .item img {
-        margin: 0 auto;
-        width: 100% !important;
-    }
-    .single_facilities_inner img {
-        height: 13rem !important;
-    }
-    .caption-text {
-        font-size: 14px !important;
-    }
-    .featured_works .featured_gallery .gallery_iner img {
-        height: 15rem;
-    }
+  .navbar-brand {
+    padding-top: 1rem !important;
+  }
+
+  .our_partners_area .partners .item img {
+    margin: 0 auto;
+    width: 100% !important;
+  }
+
+  .single_facilities_inner img {
+    height: 13rem !important;
+  }
+
+  .caption-text {
+    font-size: 14px !important;
+  }
+
+  .featured_works .featured_gallery .gallery_iner img {
+    height: 15rem;
+  }
 }
 
 .pb-5 {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pb-4 {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .single_facilities_inner img {
-    height: 30rem;
-    width: 100% !important;
+  height: 30rem;
+  width: 100% !important;
 }
 
 .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover {
-    padding-top: calc(38% - 70px)
+  padding-top: calc(38% - 70px)
 }
